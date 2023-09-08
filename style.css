@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: rgb(7, 29, 2);
+    color: #fff;
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+nav
+{
+  float:center;
+  margin-left:300px;
+  color: #ffffff;
+}
+ul li{
+    display: inline-block; 
+    text-align: center;
+    font-size:15px;
+    justify-content: center;
+    padding: 10px;
+    margin-right:100px;
+  }
+  
+  ul li:hover{
+    color:orange;
+  }
+  .cont_glow
+  {
+    margin-top: 50px;
+  }
+  .cont_glow img{
+    float: right;
+    margin: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .cont_glow h1{
+    font-size: 30px;
+  }
+  .cont_glow h6{
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(179, 185, 179);
+  }
+  .cont_glow button{
+    font-size: 20px;
+    background-color:#fff;
+    color: black;
+    border: none;
+    outline:none;
+    margin-top: 30px;
+    width: 20%;
+    border-radius: 40px;
+    padding: 10px;
+  }
+  .cont_treat{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+  .left-image, .right-image{
+    flex: 1;
+    text-align: center;
+  }
+  .center-text{
+    flex: 2;
+    text-align: center;
+    color: rgb(7, 29, 2);
+  }
+  .center-text h1{
+    margin-top: 10px;
+  }
+  .center-text h5{
+    margin-top: 10px;
+  }
+  .products
+  {
+    background-color:rgb(7, 29, 2);
+    width: 100%;
+    height: 300px;
+  }
+  .images img{
+    float: right;
+    width: 270px;
+    margin-top:50px;
+    margin-right:20px;
+  }
+  .images h1{
+    color: #fff;
+    margin-left: 150px;
+    padding-top: 50px;
+  }
+  .images h6{
+    font-size: 15px;
+    color:rgb(179, 185, 179);
+    margin-left: 150px;
+    padding-top: 20px;
+  }
+  .images button{
+    font-size: 20px;
+    background-color:#fff;
+    color: black;
+    border: none;
+    outline:none;
+    margin-top: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 150px;
+  }
+  .customer{
+    height: 300px;
+    display: flex;
+    
+  }
+  .cont_cust img{
+    float:left;
+    height: 300px;
+    width:300px;
+  }
+  .cont_cust h1{
+    color:rgb(7, 29, 2);
+    padding-top: 50px;
+    margin-left: 600px;
+    text-align: center;
+  }
+  .cont_cust h5{
+    padding-top: 20px;
+    margin-left: 600px;
+    text-align: center;
+  }
+  .cont_cust p{
+    padding-top: 30px;
+   margin-left: 900px; 
+  }
+  .avail{
+    height: 250px;
+    background-color:rgb(7, 29, 2);
+    color: #fff;
+  }
+  .logo-cont{
+    float:center;
+  margin-left:300px;
+  }
+  .logo-cont li{
+    display: inline-block; 
+    text-align: center;
+    font-size:25px;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 50px;
+    margin-right:100px;
+  }
+  .logo-cont li:hover{
+    color: orange ;
+  }
+  .avail h1{
+    padding-top: 50px;
+    text-align: center;
+  }
+  .signup{
+    height: 200px;
+  }
+  .signup p{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .signup button{
+    background-color:#fff;
+    color: rgb(173, 170, 170);
+    font-size: 10px;
+    width: 30%;
+    color: black;
+    border: 1px solid;
+    margin-top: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 500px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,auto));
+    background-color:rgb(7, 29, 2) ;
+    height: 200px;
+    color: #fff;
+  }
+  .footer-logo{
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+  .footer-cont li{
+    display: block;
+    padding-top: 20px;
+  }
+  .footer-cont1 li{
+    display: block;
+    padding-top: 20px;
+  
+  }
+  .footer-cont1 p{
+    padding-top: 50px;
+  }
+  .footer-logo .gmail{
+   margin-top: 130px;
+  }
+  
